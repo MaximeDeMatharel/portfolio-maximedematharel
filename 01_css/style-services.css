@@ -1,0 +1,180 @@
+
+/* SECTION 1 */
+
+#headline{
+
+    width: 70vw;
+    margin: 0 auto;
+    padding-top: 16vw;
+    padding-left: 16vw;
+    margin-bottom: 10vw;
+
+
+    
+}
+
+
+
+.wrap-title-headline h3{
+    margin-top: 16px;
+
+}
+
+
+
+
+.container-expertises{
+    width: 70vw;
+    margin: 0 auto;
+    margin-bottom: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-expertices{
+    width: 30%;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 0px 14px 34px 0px rgba(231, 237, 248, 0.8);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.img-card-expertices{
+    height: 50%;
+    width: 100%;
+    background-color: #f2f4f9;
+    border-radius: 20px 20px 0px 0px;
+    box-sizing: border-box;
+    padding: 5%;
+}
+
+.img-card-expertices img{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.info-card-expertices{
+    box-sizing: border-box;
+    padding: 30px 20px 0px 20px;
+    text-align: center;
+}
+
+.info-card-expertices h5{
+    margin-bottom: 8px;
+}
+
+
+.container-services{
+    width: 70vw;
+    margin: 0 auto;
+    margin-bottom: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.card-services{
+    width: 30%;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 0px 14px 34px 0px rgba(231, 237, 248, 0.8);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.wrap-info-services{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 30px 20px 0px 20px;
+}
+
+.wrap-info-services h5{
+    margin-bottom: 8px;
+}
+
+.wrap-tag-services{
+    box-sizing: border-box;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-cta{
+    height: 140px;
+    background-image: url(../_asset/02_img/bg-colors-cta.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 6vw 0;
+}
+
+.container-cta p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 32px;
+}
+
+#container-process{
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+
+}
+
+.card-process{
+    width: 30%;
+    margin: 0px 32px 4vw 0px;
+    box-sizing: border-box;
+    padding-right: 50px;
+}
+
+.bg-icon{
+    width: 60px;
+    height: 60px;
+    backdrop-filter: blur(15px);
+    background-color: #fff;
+    background-image: url(../_asset/02_img/bg-colors-cta.jpg);
+    opacity: 0.9;
+    backdrop-filter: blur(15px);
+    border-radius: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 1.4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-icon img{
+    width: 50%;
+}
+
+.card-process h5{
+    margin-bottom: 0.7vw;
+}
