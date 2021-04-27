@@ -115,7 +115,7 @@
 
 .container-cta{
     height: 140px;
-    background-image: url(../00_asset/02_img/bg-colors-cta.jpg);
+    background-image: url(/00_asset/02_img/bg-colors-cta.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -157,7 +157,7 @@
     height: 60px;
     backdrop-filter: blur(15px);
     background-color: #fff;
-    background-image: url(../00_asset/02_img/bg-colors-cta.jpg);
+    background-image: url(/00_asset/02_img/bg-colors-cta.jpg);
     opacity: 0.9;
     backdrop-filter: blur(15px);
     border-radius: 100px;
