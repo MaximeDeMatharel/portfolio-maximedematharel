@@ -115,7 +115,7 @@
 
 .container-cta{
     height: 140px;
-    background-image: url(/00_asset/02_img/bg-colors-cta.jpg);
+    background-image: url(../00_asset/02_img/bg-colors-cta.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
