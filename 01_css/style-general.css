@@ -21,6 +21,7 @@ body{
 
 /* HEADER */
 
+
 #header{
     display: flex;
     flex-direction: row;
@@ -31,7 +32,7 @@ body{
     padding-left: 15vw;
     padding-right: 15vw;
     background-color: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
     /*box-shadow: 0px 0px 10px 0px #f2f4f9;*/
     align-items: center;
     position: fixed;
@@ -61,7 +62,7 @@ body{
 .header-info{
     width: 40vw;
     text-align: center;
-    color: #696974;
+    color: #333;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -78,61 +79,90 @@ body{
     font-size: 13px;
 }
 
-.burger-menu{
-    width: 15vw;
-}
 
 
-header nav{
-    height: auto;
-    position: fixed;
-    top: 100px;
-    width: 100vw;
-    background-color: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(15px);
+
+
+
+
+
+/* Style the navigation menu */
+.topnav {
     overflow: hidden;
-    display: flex;
-    z-index: 1;
-    transition: 1s;
-
-}
-
-header nav ul {
-    width: 100%;
-    height: 0;
-    margin: 0vw 30vw;
+    width: 70vw;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #333;
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    list-style: none;
+    z-index: 1;
+    
 }
 
-header nav ul li {
-    margin: 0;
-}
 
-header nav ul li a {
-    text-decoration: none;
-    font-family: 'Poppins';
-    font-size: 13px;
-}
+/* Hide the links inside the navigation menu (except for logo/home) */
 
-#burger {
-    margin-right: 0px;
-    font-size: 1.1rem;
-    cursor: pointer;
-}
-
-#menudeploye {
+.topnav #myLinks {
     display: none;
-}
-
-#menudeploye:checked+nav{
-    height: 140px;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    margin-top: 70px;
+    box-sizing: border-box;
+    height: 50px;
+    width: 100vw;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    
 
     
 }
+
+
+/* Style navigation menu links */
+
+.topnav a {
+    color: #333;
+    padding: 15px 0px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.navlinks{
+    width: 25%;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 0px;
+
+
+}
+
+/* Style the hamburger menu */
+
+.topnav a.icon {
+    box-sizing: border-box;
+    padding: 0px 8px;
+    width: 15vw;
+    text-align: end;
+
+}
+
+.topnav a:hover {
+    color: #0354B7;
+}
+
+.lord-icon{
+    color: #333;
+    width: 24px;
+    height: 24px;
+
+}
+
+
+
+
 
 /* TITLES */
 
