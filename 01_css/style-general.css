@@ -19,6 +19,60 @@ body{
 
 
 
+/* DOT CURSOR */
+
+body{
+    cursor: none;
+}
+
+
+
+.cursor-dot{
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease-in-out,
+                transform 0.3s ease-in-out;
+    z-index: 2;
+}
+
+.cursor-dot-outline {
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease-in-out,
+                transform 0.3s ease-in-out;
+    z-index: 2;
+}
+
+.cursor-dot {
+
+    width: 8px;
+    height: 8px;
+    background-color: #0354B7;
+}
+
+.cursor-dot-outline {
+
+    width: 40px;
+    height: 40px;
+    background-color: rgba(3, 84, 183, 0.1);
+}
+
+
+
+
+
+
+
 /* HEADER */
 
 
@@ -128,6 +182,7 @@ body{
     padding: 15px 0px;
     text-decoration: none;
     font-size: 13px;
+    cursor: none;
 }
 
 .navlinks{
@@ -135,6 +190,7 @@ body{
     text-align: center;
     padding: 10px 0px;
     margin-top: 0px;
+    cursor: none;
 
 
 }
@@ -159,6 +215,12 @@ body{
     height: 24px;
 
 }
+
+
+
+
+
+
 
 
 
@@ -258,7 +320,7 @@ a{
     color: #F1F1F1;
     border: none;
     border-radius: 60px;
-    cursor: pointer;
+    cursor: none;
     font-family: 'Poppins';
     font-size: 13px;
     font-weight: 500;
@@ -284,7 +346,7 @@ a{
     color: #0354B7;
     border: none;
     border-radius: 60px;
-    cursor: pointer;
+    cursor: none;
     font-family: 'Poppins';
     font-size: 13px;
     font-weight: 500;
@@ -309,7 +371,7 @@ a{
     color: #fff;
     border: none;
     border-radius: 60px;
-    cursor: pointer;
+    cursor: none;
     font-family: 'Poppins';
     font-size: 13px;
     font-weight: 500;
@@ -328,7 +390,7 @@ a{
     text-decoration: none;
     margin: 0;
     padding: 0;
-    cursor: pointer;
+    cursor: none;
     font-family: 'Poppins';
     font-size: 13px;
     font-weight: 400;
@@ -344,7 +406,7 @@ a{
 
 .btn-navigation{
     font-family: 'Poppins';
-    cursor: pointer;
+    cursor: none;
     font-weight: 300;
     color: #333;
 }
@@ -353,11 +415,13 @@ a{
     font-weight: 300;
     color: #0354B7;
     transition: 0.2s ease;
+    cursor: none;
 }
 
 .btn-navigation-active{
     font-weight: 500;
     color: #333;
+    cursor: none;
 }
 
 .btn-tag{
@@ -391,6 +455,11 @@ footer{
     display: flex;
     flex-direction: column;
     margin-top: 10vw;
+
+}
+
+.wrap-info-footer a{
+    cursor: none;
 }
 
 .container-nav-footer{
@@ -423,6 +492,7 @@ footer{
 
 .wrap-navigation a{
     font-size: 13px;
+    cursor: none;
 }
 
 
