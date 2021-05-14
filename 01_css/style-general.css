@@ -232,6 +232,19 @@ body{
 }
 
 
+/* Style the hamburger menu */
+
+.topnav a.icon {
+    box-sizing: border-box;
+    padding: 0px 8px;
+    width: 15vw;
+    text-align: end;
+
+}
+
+.topnav a:hover {
+    color: #0354B7;
+}
 
 
 
