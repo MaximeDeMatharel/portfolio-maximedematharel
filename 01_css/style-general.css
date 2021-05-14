@@ -474,12 +474,17 @@ footer{
     display: flex;
     flex-direction: column;
     margin-top: 10vw;
+    width: 70vw;
+    margin: 0 auto;
 
 }
 
 .wrap-info-footer a{
     cursor: none;
+    width: auto;
+    margin: 0 auto;
 }
+
 
 .container-nav-footer{
     height: 70px;
