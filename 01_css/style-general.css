@@ -62,8 +62,8 @@ body{
 
 .cursor-dot-outline {
 
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     background-color: rgba(3, 84, 183, 0.1);
 }
 
