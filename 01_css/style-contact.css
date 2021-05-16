@@ -1,72 +1,91 @@
 
 
 
-#container-cartedevisite{
+/* SECTION 1 */
+
+#hello{
     width: 70vw;
+    height: 50vw;
     margin: 0 auto;
-    padding-top: 14vw;
-
-}
-
-
-
-.container-sayhello h4{
-    text-align: center;
-
-}
-
-.card-cartedevisite{
-    width: 500px;
-    height: 300px;
-    margin: 0vw auto;
-    background-color: #F1F4F8;
-    box-shadow: 0px 0px 34px 0px rgba(169, 174, 177, 0.5);
-    /*background-image: url(../_asset/02_img/bg-color-cartedevisite.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;*/
-    border-radius: 10px;
-    box-sizing: border-box;
-    padding: 20px;
+    font-family: 'Poppins';
     display: flex;
     justify-content: space-between;
-    margin-bottom: 4vw;
-    
+    flex-direction: row;
+    box-sizing: border-box;
+    padding-right: 10vw;
+    padding-left: 8.5vw;
+    padding-top: 70px;
+    margin-bottom: 70px;
+    z-index: 0;
+
+}
+
+.wrap-hello-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 60%;
+}
+
+.wrap-hello-info span{
+    color: #0654b7;
+}
+
+.subhead-contact{
+    margin-top: 10%;
+}
+
+
+
+.wrap-hello-info a{
+    cursor: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5%;
+
+}
+
+.container-icon-contact{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(3, 83, 184, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 50%;
+    margin-right: 24px;
+    box-sizing: border-box;
+    padding: 13px;
+
+}
+
+.container-icon-contact img{
+    margin: 0 auto;
+    height: 24px;
+    color: #0354B7;
+}
+
+
+
+
+
+.container-button-home{
+    margin-top: 3vw;
+}
+
+.container-img{
+    padding-top: 3vw;
 
 
 }
 
-.card-cartedevisite h4{
-    margin-top: 10vw;
-}
-
-.wrap-info-cartedevisite{
+.container-img img{
     width: 90%;
-    display: flex;
-    flex-direction: column;
-}
-
-.wrap-info-cartedevisite a{
-    cursor: none;
-}
-
-.wrap-icon-cartedevisite{
-    width: 10%;
-    display: flex;
-    flex-direction: column;
 
 
 }
 
-.wrap-icon-cartedevisite a{
-    padding-left: 16px;
-    padding-top: 8px;
-    cursor: none;
-}
 
-.fab{
-    font-size: 24px;
 
-}
 
