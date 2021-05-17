@@ -2,8 +2,9 @@
 
     width: 70vw;
     margin: 0 auto;
+    box-sizing: border-box;
+    padding-left: 8.5vw;
     padding-top: 12vw;
-    padding-left: 16vw;
     margin-bottom: 2vw;
 
 
