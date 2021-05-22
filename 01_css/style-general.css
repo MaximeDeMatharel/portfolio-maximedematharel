@@ -385,11 +385,11 @@ a{
 }
 
 .btn-cta-blur-white{
-    width: 120px;
+
     height: auto;
     box-sizing: border-box;
-    padding: 12px;
-    margin-right: 12px;
+    padding: 12px 18px;
+
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(15px);
     color: #fff;
