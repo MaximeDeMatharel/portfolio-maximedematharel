@@ -335,11 +335,11 @@ a{
 /* BOUTONS */
 
 .btn-cta-active-blue{
-    width: 120px;
+
     height: auto;
     box-sizing: border-box;
-    padding: 12px;
-    margin-right: 12px;
+    padding: 12px 18px;
+    margin-right: 18px;
     background-color: #0354B7;
     color: #F1F1F1;
     border: none;
@@ -360,11 +360,11 @@ a{
 
 
 .btn-cta-blur{
-    width: 120px;
+
     height: auto;
     box-sizing: border-box;
-    padding: 12px;
-    margin-right: 12px;
+    padding: 12px 18px;
+    margin-right: 18px;
     background-color: rgba(3, 83, 184, 0.1);
     backdrop-filter: blur(15px);
     color: #0354B7;
